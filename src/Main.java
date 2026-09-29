@@ -18,5 +18,13 @@ void main() {
 
     System.out.println("Media: " + media);
 
+    if (media < 4.0) {
+        System.out.println("Aluno reprovado");
+    } else if (media >= 7.0) {
+        System.out.println("Aluno aprovado");
+    } else {
+        System.out.println("Aluno de recuperação");
+    }
+
     sc.close();
 }
